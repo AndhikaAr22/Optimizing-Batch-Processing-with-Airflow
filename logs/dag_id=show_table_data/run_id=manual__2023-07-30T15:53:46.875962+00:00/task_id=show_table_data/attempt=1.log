@@ -1,0 +1,52 @@
+[2023-07-30 15:53:47,334] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: show_table_data.show_table_data manual__2023-07-30T15:53:46.875962+00:00 [queued]>
+[2023-07-30 15:53:47,342] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: show_table_data.show_table_data manual__2023-07-30T15:53:46.875962+00:00 [queued]>
+[2023-07-30 15:53:47,342] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-30 15:53:47,342] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2023-07-30 15:53:47,342] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-30 15:53:47,356] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): show_table_data> on 2023-07-30 15:53:46.875962+00:00
+[2023-07-30 15:53:47,360] {standard_task_runner.py:52} INFO - Started process 1018 to run task
+[2023-07-30 15:53:47,363] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'show_table_data', 'show_table_data', 'manual__2023-07-30T15:53:46.875962+00:00', '--job-id', '335', '--raw', '--subdir', 'DAGS_FOLDER/simple_dag_connection.py', '--cfg-path', '/tmp/tmp30l21b3n', '--error-file', '/tmp/tmpjwlk5le_']
+[2023-07-30 15:53:47,365] {standard_task_runner.py:80} INFO - Job 335: Subtask show_table_data
+[2023-07-30 15:53:47,418] {task_command.py:369} INFO - Running <TaskInstance: show_table_data.show_table_data manual__2023-07-30T15:53:46.875962+00:00 [running]> on host 0981bc456e01
+[2023-07-30 15:53:47,502] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=show_table_data
+AIRFLOW_CTX_TASK_ID=show_table_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-30T15:53:46.875962+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-30T15:53:46.875962+00:00
+[2023-07-30 15:53:47,512] {base.py:68} INFO - Using connection ID 'pg_postgres' for task execution.
+[2023-07-30 15:53:47,523] {logging_mixin.py:115} INFO - Isi tabel:
+[2023-07-30 15:53:47,523] {logging_mixin.py:115} INFO - ('3204', '32', 'Kabupaten Bandung')
+[2023-07-30 15:53:47,523] {logging_mixin.py:115} INFO - ('3217', '32', 'Kabupaten Bandung Barat')
+[2023-07-30 15:53:47,523] {logging_mixin.py:115} INFO - ('3216', '32', 'Kabupaten Bekasi')
+[2023-07-30 15:53:47,523] {logging_mixin.py:115} INFO - ('3201', '32', 'Kabupaten Bogor')
+[2023-07-30 15:53:47,523] {logging_mixin.py:115} INFO - ('3207', '32', 'Kabupaten Ciamis')
+[2023-07-30 15:53:47,523] {logging_mixin.py:115} INFO - ('3203', '32', 'Kabupaten Cianjur')
+[2023-07-30 15:53:47,523] {logging_mixin.py:115} INFO - ('3209', '32', 'Kabupaten Cirebon')
+[2023-07-30 15:53:47,523] {logging_mixin.py:115} INFO - ('3205', '32', 'Kabupaten Garut')
+[2023-07-30 15:53:47,523] {logging_mixin.py:115} INFO - ('3212', '32', 'Kabupaten Indramayu')
+[2023-07-30 15:53:47,523] {logging_mixin.py:115} INFO - ('3215', '32', 'Kabupaten Karawang')
+[2023-07-30 15:53:47,524] {logging_mixin.py:115} INFO - ('3208', '32', 'Kabupaten Kuningan')
+[2023-07-30 15:53:47,524] {logging_mixin.py:115} INFO - ('3210', '32', 'Kabupaten Majalengka')
+[2023-07-30 15:53:47,524] {logging_mixin.py:115} INFO - ('3218', '32', 'Kabupaten Pangandaran')
+[2023-07-30 15:53:47,524] {logging_mixin.py:115} INFO - ('3214', '32', 'Kabupaten Purwakarta')
+[2023-07-30 15:53:47,524] {logging_mixin.py:115} INFO - ('3213', '32', 'Kabupaten Subang')
+[2023-07-30 15:53:47,524] {logging_mixin.py:115} INFO - ('3202', '32', 'Kabupaten Sukabumi')
+[2023-07-30 15:53:47,524] {logging_mixin.py:115} INFO - ('3211', '32', 'Kabupaten Sumedang')
+[2023-07-30 15:53:47,524] {logging_mixin.py:115} INFO - ('3206', '32', 'Kabupaten Tasikmalaya')
+[2023-07-30 15:53:47,524] {logging_mixin.py:115} INFO - ('3273', '32', 'Kota Bandung')
+[2023-07-30 15:53:47,524] {logging_mixin.py:115} INFO - ('3279', '32', 'Kota Banjar')
+[2023-07-30 15:53:47,524] {logging_mixin.py:115} INFO - ('3275', '32', 'Kota Bekasi')
+[2023-07-30 15:53:47,524] {logging_mixin.py:115} INFO - ('3271', '32', 'Kota Bogor')
+[2023-07-30 15:53:47,524] {logging_mixin.py:115} INFO - ('3277', '32', 'Kota Cimahi')
+[2023-07-30 15:53:47,524] {logging_mixin.py:115} INFO - ('3274', '32', 'Kota Cirebon')
+[2023-07-30 15:53:47,524] {logging_mixin.py:115} INFO - ('3276', '32', 'Kota Depok')
+[2023-07-30 15:53:47,524] {logging_mixin.py:115} INFO - ('3272', '32', 'Kota Sukabumi')
+[2023-07-30 15:53:47,524] {logging_mixin.py:115} INFO - ('3278', '32', 'Kota Tasikmalaya')
+[2023-07-30 15:53:47,524] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-30 15:53:47,538] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=show_table_data, task_id=show_table_data, execution_date=20230730T155346, start_date=20230730T155347, end_date=20230730T155347
+[2023-07-30 15:53:47,575] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-30 15:53:47,607] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

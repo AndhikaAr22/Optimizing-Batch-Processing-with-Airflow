@@ -1,0 +1,25 @@
+[2023-07-28 16:03:50,213] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag_test.get_data_postgres manual__2023-07-28T16:03:49.437051+00:00 [queued]>
+[2023-07-28 16:03:50,222] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag_test.get_data_postgres manual__2023-07-28T16:03:49.437051+00:00 [queued]>
+[2023-07-28 16:03:50,222] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-28 16:03:50,222] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-28 16:03:50,222] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-28 16:03:50,235] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): get_data_postgres> on 2023-07-28 16:03:49.437051+00:00
+[2023-07-28 16:03:50,239] {standard_task_runner.py:52} INFO - Started process 2396 to run task
+[2023-07-28 16:03:50,242] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dag_test', 'get_data_postgres', 'manual__2023-07-28T16:03:49.437051+00:00', '--job-id', '291', '--raw', '--subdir', 'DAGS_FOLDER/simple_dag_connection.py', '--cfg-path', '/tmp/tmpby64hezf', '--error-file', '/tmp/tmpq7zhdm1e']
+[2023-07-28 16:03:50,243] {standard_task_runner.py:80} INFO - Job 291: Subtask get_data_postgres
+[2023-07-28 16:03:50,304] {task_command.py:369} INFO - Running <TaskInstance: dag_test.get_data_postgres manual__2023-07-28T16:03:49.437051+00:00 [running]> on host ebe3e165ffca
+[2023-07-28 16:03:50,377] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dag_test
+AIRFLOW_CTX_TASK_ID=get_data_postgres
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-28T16:03:49.437051+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-28T16:03:49.437051+00:00
+[2023-07-28 16:03:50,390] {logging_mixin.py:115} INFO - connect engine Postgresql
+[2023-07-28 16:03:50,390] {logging_mixin.py:115} INFO - connect engine Postgresql
+[2023-07-28 16:03:50,390] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-28 16:03:50,403] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=dag_test, task_id=get_data_postgres, execution_date=20230728T160349, start_date=20230728T160350, end_date=20230728T160350
+[2023-07-28 16:03:50,418] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-28 16:03:50,459] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

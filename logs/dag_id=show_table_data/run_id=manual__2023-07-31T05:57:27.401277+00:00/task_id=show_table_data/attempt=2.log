@@ -1,0 +1,34 @@
+[2023-07-31 06:01:01,434] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: show_table_data.show_table_data manual__2023-07-31T05:57:27.401277+00:00 [queued]>
+[2023-07-31 06:01:01,442] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: show_table_data.show_table_data manual__2023-07-31T05:57:27.401277+00:00 [queued]>
+[2023-07-31 06:01:01,442] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-31 06:01:01,442] {taskinstance.py:1357} INFO - Starting attempt 2 of 3
+[2023-07-31 06:01:01,442] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-31 06:01:01,454] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): show_table_data> on 2023-07-31 05:57:27.401277+00:00
+[2023-07-31 06:01:01,457] {standard_task_runner.py:52} INFO - Started process 655 to run task
+[2023-07-31 06:01:01,460] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'show_table_data', 'show_table_data', 'manual__2023-07-31T05:57:27.401277+00:00', '--job-id', '347', '--raw', '--subdir', 'DAGS_FOLDER/simple_dag_connection.py', '--cfg-path', '/tmp/tmp6k17wwqb', '--error-file', '/tmp/tmpzh37we99']
+[2023-07-31 06:01:01,461] {standard_task_runner.py:80} INFO - Job 347: Subtask show_table_data
+[2023-07-31 06:01:01,506] {task_command.py:369} INFO - Running <TaskInstance: show_table_data.show_table_data manual__2023-07-31T05:57:27.401277+00:00 [running]> on host 2cb2fe2d8275
+[2023-07-31 06:01:01,571] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=show_table_data
+AIRFLOW_CTX_TASK_ID=show_table_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-31T05:57:27.401277+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-31T05:57:27.401277+00:00
+[2023-07-31 06:01:01,583] {logging_mixin.py:115} INFO - connect engine Postgresql
+[2023-07-31 06:01:01,583] {logging_mixin.py:115} INFO - connect engine Postgresql berhasil
+[2023-07-31 06:01:01,583] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/simple_dag_connection.py", line 15, in show_table_data
+    cursor = conn.cursor()
+AttributeError: 'NoneType' object has no attribute 'cursor'
+[2023-07-31 06:01:01,591] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=show_table_data, task_id=show_table_data, execution_date=20230731T055727, start_date=20230731T060101, end_date=20230731T060101
+[2023-07-31 06:01:01,601] {standard_task_runner.py:97} ERROR - Failed to execute job 347 for task show_table_data ('NoneType' object has no attribute 'cursor'; 655)
+[2023-07-31 06:01:01,631] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-07-31 06:01:01,662] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

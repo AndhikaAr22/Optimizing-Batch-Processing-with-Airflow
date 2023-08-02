@@ -1,0 +1,511 @@
+[2023-07-31 15:17:03,425] {processor.py:153} INFO - Started process (PID=12513) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:17:03,425] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:17:03,426] {logging_mixin.py:115} INFO - [2023-07-31 15:17:03,426] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:17:03,773] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:17:03,833] {logging_mixin.py:115} INFO - [2023-07-31 15:17:03,833] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:17:03,855] {logging_mixin.py:115} INFO - [2023-07-31 15:17:03,855] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:17:03,869] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.447 seconds
+[2023-07-31 15:17:34,125] {processor.py:153} INFO - Started process (PID=12546) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:17:34,126] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:17:34,127] {logging_mixin.py:115} INFO - [2023-07-31 15:17:34,126] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:17:34,488] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:17:34,497] {logging_mixin.py:115} INFO - [2023-07-31 15:17:34,497] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:17:34,515] {logging_mixin.py:115} INFO - [2023-07-31 15:17:34,515] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:17:34,522] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.406 seconds
+[2023-07-31 15:18:04,811] {processor.py:153} INFO - Started process (PID=12579) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:18:04,813] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:18:04,815] {logging_mixin.py:115} INFO - [2023-07-31 15:18:04,814] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:18:05,149] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:18:05,163] {logging_mixin.py:115} INFO - [2023-07-31 15:18:05,163] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:18:05,182] {logging_mixin.py:115} INFO - [2023-07-31 15:18:05,182] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:18:05,191] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.389 seconds
+[2023-07-31 15:18:35,494] {processor.py:153} INFO - Started process (PID=12612) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:18:35,495] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:18:35,496] {logging_mixin.py:115} INFO - [2023-07-31 15:18:35,495] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:18:35,864] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:18:35,876] {logging_mixin.py:115} INFO - [2023-07-31 15:18:35,875] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:18:35,899] {logging_mixin.py:115} INFO - [2023-07-31 15:18:35,898] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:18:35,911] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.424 seconds
+[2023-07-31 15:19:06,157] {processor.py:153} INFO - Started process (PID=12645) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:19:06,159] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:19:06,160] {logging_mixin.py:115} INFO - [2023-07-31 15:19:06,160] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:19:06,493] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:19:06,502] {logging_mixin.py:115} INFO - [2023-07-31 15:19:06,502] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:19:06,520] {logging_mixin.py:115} INFO - [2023-07-31 15:19:06,520] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:19:06,528] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.381 seconds
+[2023-07-31 15:19:36,838] {processor.py:153} INFO - Started process (PID=12678) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:19:36,839] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:19:36,840] {logging_mixin.py:115} INFO - [2023-07-31 15:19:36,840] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:19:37,148] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:19:37,158] {logging_mixin.py:115} INFO - [2023-07-31 15:19:37,158] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:19:37,177] {logging_mixin.py:115} INFO - [2023-07-31 15:19:37,176] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:19:37,184] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.355 seconds
+[2023-07-31 15:20:07,547] {processor.py:153} INFO - Started process (PID=12711) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:20:07,549] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:20:07,550] {logging_mixin.py:115} INFO - [2023-07-31 15:20:07,550] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:20:07,865] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:20:07,874] {logging_mixin.py:115} INFO - [2023-07-31 15:20:07,874] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:20:07,892] {logging_mixin.py:115} INFO - [2023-07-31 15:20:07,892] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:20:07,899] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.362 seconds
+[2023-07-31 15:20:38,251] {processor.py:153} INFO - Started process (PID=12744) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:20:38,252] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:20:38,254] {logging_mixin.py:115} INFO - [2023-07-31 15:20:38,254] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:20:38,586] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:20:38,595] {logging_mixin.py:115} INFO - [2023-07-31 15:20:38,595] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:20:38,618] {logging_mixin.py:115} INFO - [2023-07-31 15:20:38,618] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:20:38,628] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.387 seconds
+[2023-07-31 15:21:08,945] {processor.py:153} INFO - Started process (PID=12777) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:21:08,946] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:21:08,948] {logging_mixin.py:115} INFO - [2023-07-31 15:21:08,948] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:21:09,280] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:21:09,290] {logging_mixin.py:115} INFO - [2023-07-31 15:21:09,289] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:21:09,307] {logging_mixin.py:115} INFO - [2023-07-31 15:21:09,307] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:21:09,314] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.380 seconds
+[2023-07-31 15:21:39,608] {processor.py:153} INFO - Started process (PID=12810) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:21:39,608] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:21:39,609] {logging_mixin.py:115} INFO - [2023-07-31 15:21:39,609] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:21:39,937] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:21:39,946] {logging_mixin.py:115} INFO - [2023-07-31 15:21:39,946] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:21:39,966] {logging_mixin.py:115} INFO - [2023-07-31 15:21:39,966] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:21:39,973] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.368 seconds
+[2023-07-31 15:22:10,369] {processor.py:153} INFO - Started process (PID=12843) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:22:10,371] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:22:10,372] {logging_mixin.py:115} INFO - [2023-07-31 15:22:10,371] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:22:10,685] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:22:10,695] {logging_mixin.py:115} INFO - [2023-07-31 15:22:10,694] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:22:10,712] {logging_mixin.py:115} INFO - [2023-07-31 15:22:10,712] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:22:10,720] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.357 seconds
+[2023-07-31 15:22:41,082] {processor.py:153} INFO - Started process (PID=12876) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:22:41,084] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:22:41,085] {logging_mixin.py:115} INFO - [2023-07-31 15:22:41,085] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:22:41,442] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:22:41,454] {logging_mixin.py:115} INFO - [2023-07-31 15:22:41,454] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:22:41,479] {logging_mixin.py:115} INFO - [2023-07-31 15:22:41,478] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:22:41,488] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.410 seconds
+[2023-07-31 15:23:11,883] {processor.py:153} INFO - Started process (PID=12909) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:23:11,885] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:23:11,886] {logging_mixin.py:115} INFO - [2023-07-31 15:23:11,886] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:23:12,297] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:23:12,314] {logging_mixin.py:115} INFO - [2023-07-31 15:23:12,313] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:23:12,341] {logging_mixin.py:115} INFO - [2023-07-31 15:23:12,341] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:23:12,354] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.480 seconds
+[2023-07-31 15:23:42,795] {processor.py:153} INFO - Started process (PID=12942) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:23:42,797] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:23:42,799] {logging_mixin.py:115} INFO - [2023-07-31 15:23:42,799] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:23:43,426] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:23:43,439] {logging_mixin.py:115} INFO - [2023-07-31 15:23:43,438] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:23:43,472] {logging_mixin.py:115} INFO - [2023-07-31 15:23:43,472] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:23:43,483] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.702 seconds
+[2023-07-31 15:24:14,303] {processor.py:153} INFO - Started process (PID=12975) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:24:14,305] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:24:14,306] {logging_mixin.py:115} INFO - [2023-07-31 15:24:14,306] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:24:14,663] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:24:14,676] {logging_mixin.py:115} INFO - [2023-07-31 15:24:14,675] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:24:14,705] {logging_mixin.py:115} INFO - [2023-07-31 15:24:14,705] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:24:14,720] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.427 seconds
+[2023-07-31 15:24:45,026] {processor.py:153} INFO - Started process (PID=13008) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:24:45,026] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:24:45,026] {logging_mixin.py:115} INFO - [2023-07-31 15:24:45,026] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:24:45,340] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:24:45,349] {logging_mixin.py:115} INFO - [2023-07-31 15:24:45,349] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:24:45,366] {logging_mixin.py:115} INFO - [2023-07-31 15:24:45,366] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:24:45,374] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.351 seconds
+[2023-07-31 15:25:15,817] {processor.py:153} INFO - Started process (PID=13041) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:25:15,817] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:25:15,818] {logging_mixin.py:115} INFO - [2023-07-31 15:25:15,818] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:25:16,204] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:25:16,223] {logging_mixin.py:115} INFO - [2023-07-31 15:25:16,222] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:25:16,255] {logging_mixin.py:115} INFO - [2023-07-31 15:25:16,255] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:25:16,266] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.452 seconds
+[2023-07-31 15:25:46,526] {processor.py:153} INFO - Started process (PID=13074) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:25:46,527] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:25:46,529] {logging_mixin.py:115} INFO - [2023-07-31 15:25:46,529] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:25:46,958] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:25:46,971] {logging_mixin.py:115} INFO - [2023-07-31 15:25:46,970] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:25:46,993] {logging_mixin.py:115} INFO - [2023-07-31 15:25:46,993] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:25:47,002] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.483 seconds
+[2023-07-31 15:26:17,274] {processor.py:153} INFO - Started process (PID=13107) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:26:17,275] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:26:17,276] {logging_mixin.py:115} INFO - [2023-07-31 15:26:17,275] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:26:17,660] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:26:17,671] {logging_mixin.py:115} INFO - [2023-07-31 15:26:17,670] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:26:17,689] {logging_mixin.py:115} INFO - [2023-07-31 15:26:17,689] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:26:17,698] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.428 seconds
+[2023-07-31 15:26:47,950] {processor.py:153} INFO - Started process (PID=13140) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:26:47,951] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:26:47,952] {logging_mixin.py:115} INFO - [2023-07-31 15:26:47,952] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:26:48,344] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:26:48,354] {logging_mixin.py:115} INFO - [2023-07-31 15:26:48,354] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:26:48,372] {logging_mixin.py:115} INFO - [2023-07-31 15:26:48,372] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:26:48,380] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.437 seconds
+[2023-07-31 15:27:18,685] {processor.py:153} INFO - Started process (PID=13173) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:27:18,686] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:27:18,688] {logging_mixin.py:115} INFO - [2023-07-31 15:27:18,688] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:27:19,036] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:27:19,046] {logging_mixin.py:115} INFO - [2023-07-31 15:27:19,045] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:27:19,063] {logging_mixin.py:115} INFO - [2023-07-31 15:27:19,063] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:27:19,075] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.399 seconds
+[2023-07-31 15:27:49,483] {processor.py:153} INFO - Started process (PID=13206) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:27:49,484] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:27:49,485] {logging_mixin.py:115} INFO - [2023-07-31 15:27:49,485] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:27:49,872] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:27:49,881] {logging_mixin.py:115} INFO - [2023-07-31 15:27:49,881] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:27:49,898] {logging_mixin.py:115} INFO - [2023-07-31 15:27:49,898] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:27:49,906] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.431 seconds
+[2023-07-31 15:28:20,242] {processor.py:153} INFO - Started process (PID=13239) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:28:20,243] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:28:20,243] {logging_mixin.py:115} INFO - [2023-07-31 15:28:20,243] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:28:20,584] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:28:20,593] {logging_mixin.py:115} INFO - [2023-07-31 15:28:20,593] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:28:20,613] {logging_mixin.py:115} INFO - [2023-07-31 15:28:20,613] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:28:20,621] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.382 seconds
+[2023-07-31 15:28:51,232] {processor.py:153} INFO - Started process (PID=13272) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:28:51,233] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:28:51,233] {logging_mixin.py:115} INFO - [2023-07-31 15:28:51,233] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:28:51,584] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:28:51,596] {logging_mixin.py:115} INFO - [2023-07-31 15:28:51,596] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:28:51,616] {logging_mixin.py:115} INFO - [2023-07-31 15:28:51,616] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:28:51,623] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.397 seconds
+[2023-07-31 15:29:21,969] {processor.py:153} INFO - Started process (PID=13305) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:29:21,970] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:29:21,971] {logging_mixin.py:115} INFO - [2023-07-31 15:29:21,971] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:29:22,357] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:29:22,368] {logging_mixin.py:115} INFO - [2023-07-31 15:29:22,368] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:29:22,400] {logging_mixin.py:115} INFO - [2023-07-31 15:29:22,400] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:29:22,413] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.450 seconds
+[2023-07-31 15:29:52,683] {processor.py:153} INFO - Started process (PID=13338) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:29:52,684] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:29:52,685] {logging_mixin.py:115} INFO - [2023-07-31 15:29:52,685] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:29:53,033] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:29:53,043] {logging_mixin.py:115} INFO - [2023-07-31 15:29:53,043] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:29:53,062] {logging_mixin.py:115} INFO - [2023-07-31 15:29:53,062] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:29:53,071] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.391 seconds
+[2023-07-31 15:30:23,445] {processor.py:153} INFO - Started process (PID=13371) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:30:23,446] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:30:23,447] {logging_mixin.py:115} INFO - [2023-07-31 15:30:23,447] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:30:23,799] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:30:23,810] {logging_mixin.py:115} INFO - [2023-07-31 15:30:23,810] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:30:23,831] {logging_mixin.py:115} INFO - [2023-07-31 15:30:23,830] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:30:23,839] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.400 seconds
+[2023-07-31 15:30:54,240] {processor.py:153} INFO - Started process (PID=13404) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:30:54,241] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:30:54,242] {logging_mixin.py:115} INFO - [2023-07-31 15:30:54,242] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:30:54,581] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:30:54,591] {logging_mixin.py:115} INFO - [2023-07-31 15:30:54,590] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:30:54,610] {logging_mixin.py:115} INFO - [2023-07-31 15:30:54,610] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:30:54,619] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.385 seconds
+[2023-07-31 15:31:24,936] {processor.py:153} INFO - Started process (PID=13437) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:31:24,938] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:31:24,940] {logging_mixin.py:115} INFO - [2023-07-31 15:31:24,939] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:31:25,278] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:31:25,287] {logging_mixin.py:115} INFO - [2023-07-31 15:31:25,287] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:31:25,304] {logging_mixin.py:115} INFO - [2023-07-31 15:31:25,303] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:31:25,312] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.385 seconds
+[2023-07-31 15:31:55,611] {processor.py:153} INFO - Started process (PID=13470) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:31:55,611] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:31:55,612] {logging_mixin.py:115} INFO - [2023-07-31 15:31:55,612] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:31:55,922] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:31:55,931] {logging_mixin.py:115} INFO - [2023-07-31 15:31:55,931] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:31:55,949] {logging_mixin.py:115} INFO - [2023-07-31 15:31:55,949] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:31:55,956] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.349 seconds
+[2023-07-31 15:32:26,369] {processor.py:153} INFO - Started process (PID=13503) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:32:26,370] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:32:26,370] {logging_mixin.py:115} INFO - [2023-07-31 15:32:26,370] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:32:26,697] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:32:26,707] {logging_mixin.py:115} INFO - [2023-07-31 15:32:26,706] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:32:26,727] {logging_mixin.py:115} INFO - [2023-07-31 15:32:26,727] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:32:26,735] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.373 seconds
+[2023-07-31 15:32:57,095] {processor.py:153} INFO - Started process (PID=13536) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:32:57,096] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:32:57,097] {logging_mixin.py:115} INFO - [2023-07-31 15:32:57,097] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:32:57,470] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:32:57,482] {logging_mixin.py:115} INFO - [2023-07-31 15:32:57,481] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:32:57,501] {logging_mixin.py:115} INFO - [2023-07-31 15:32:57,501] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:32:57,509] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.419 seconds
+[2023-07-31 15:33:27,810] {processor.py:153} INFO - Started process (PID=13569) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:33:27,810] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:33:27,811] {logging_mixin.py:115} INFO - [2023-07-31 15:33:27,811] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:33:28,192] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:33:28,202] {logging_mixin.py:115} INFO - [2023-07-31 15:33:28,202] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:33:28,222] {logging_mixin.py:115} INFO - [2023-07-31 15:33:28,222] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:33:28,231] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.426 seconds
+[2023-07-31 15:33:58,556] {processor.py:153} INFO - Started process (PID=13602) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:33:58,557] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:33:58,557] {logging_mixin.py:115} INFO - [2023-07-31 15:33:58,557] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:33:58,941] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:33:58,959] {logging_mixin.py:115} INFO - [2023-07-31 15:33:58,959] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:33:58,993] {logging_mixin.py:115} INFO - [2023-07-31 15:33:58,992] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:33:59,011] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.459 seconds
+[2023-07-31 15:34:29,288] {processor.py:153} INFO - Started process (PID=13635) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:34:29,289] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:34:29,291] {logging_mixin.py:115} INFO - [2023-07-31 15:34:29,291] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:34:29,637] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:34:29,648] {logging_mixin.py:115} INFO - [2023-07-31 15:34:29,648] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:34:29,666] {logging_mixin.py:115} INFO - [2023-07-31 15:34:29,666] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:34:29,675] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.398 seconds
+[2023-07-31 15:35:00,013] {processor.py:153} INFO - Started process (PID=13668) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:35:00,014] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:35:00,016] {logging_mixin.py:115} INFO - [2023-07-31 15:35:00,015] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:35:00,336] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:35:00,346] {logging_mixin.py:115} INFO - [2023-07-31 15:35:00,346] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:35:00,364] {logging_mixin.py:115} INFO - [2023-07-31 15:35:00,364] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:35:00,376] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.373 seconds
+[2023-07-31 15:35:30,731] {processor.py:153} INFO - Started process (PID=13701) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:35:30,732] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:35:30,733] {logging_mixin.py:115} INFO - [2023-07-31 15:35:30,733] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:35:31,056] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:35:31,065] {logging_mixin.py:115} INFO - [2023-07-31 15:35:31,065] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:35:31,083] {logging_mixin.py:115} INFO - [2023-07-31 15:35:31,082] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:35:31,090] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.369 seconds
+[2023-07-31 15:36:01,413] {processor.py:153} INFO - Started process (PID=13734) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:36:01,414] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:36:01,415] {logging_mixin.py:115} INFO - [2023-07-31 15:36:01,414] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:36:01,748] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:36:01,758] {logging_mixin.py:115} INFO - [2023-07-31 15:36:01,758] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:36:01,776] {logging_mixin.py:115} INFO - [2023-07-31 15:36:01,776] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:36:01,786] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.378 seconds
+[2023-07-31 15:36:32,200] {processor.py:153} INFO - Started process (PID=13767) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:36:32,201] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:36:32,202] {logging_mixin.py:115} INFO - [2023-07-31 15:36:32,202] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:36:32,564] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:36:32,576] {logging_mixin.py:115} INFO - [2023-07-31 15:36:32,576] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:36:32,597] {logging_mixin.py:115} INFO - [2023-07-31 15:36:32,597] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:36:32,606] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.409 seconds
+[2023-07-31 15:37:02,933] {processor.py:153} INFO - Started process (PID=13800) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:37:02,934] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:37:02,935] {logging_mixin.py:115} INFO - [2023-07-31 15:37:02,935] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:37:03,276] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:37:03,285] {logging_mixin.py:115} INFO - [2023-07-31 15:37:03,285] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:37:03,304] {logging_mixin.py:115} INFO - [2023-07-31 15:37:03,304] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:37:03,312] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.386 seconds
+[2023-07-31 15:37:33,809] {processor.py:153} INFO - Started process (PID=13833) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:37:33,811] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:37:33,813] {logging_mixin.py:115} INFO - [2023-07-31 15:37:33,812] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:37:34,186] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:37:34,197] {logging_mixin.py:115} INFO - [2023-07-31 15:37:34,197] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:37:34,217] {logging_mixin.py:115} INFO - [2023-07-31 15:37:34,217] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:37:34,225] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.427 seconds
+[2023-07-31 15:38:04,513] {processor.py:153} INFO - Started process (PID=13866) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:38:04,514] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:38:04,515] {logging_mixin.py:115} INFO - [2023-07-31 15:38:04,515] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:38:04,865] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:38:04,877] {logging_mixin.py:115} INFO - [2023-07-31 15:38:04,876] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:38:04,896] {logging_mixin.py:115} INFO - [2023-07-31 15:38:04,896] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:38:04,904] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.399 seconds
+[2023-07-31 15:38:35,259] {processor.py:153} INFO - Started process (PID=13899) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:38:35,261] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:38:35,263] {logging_mixin.py:115} INFO - [2023-07-31 15:38:35,263] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:38:35,707] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:38:35,717] {logging_mixin.py:115} INFO - [2023-07-31 15:38:35,717] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:38:35,741] {logging_mixin.py:115} INFO - [2023-07-31 15:38:35,741] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:38:35,748] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.501 seconds
+[2023-07-31 15:39:05,961] {processor.py:153} INFO - Started process (PID=13932) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:39:05,962] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:39:05,964] {logging_mixin.py:115} INFO - [2023-07-31 15:39:05,964] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:39:06,286] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:39:06,296] {logging_mixin.py:115} INFO - [2023-07-31 15:39:06,295] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:39:06,313] {logging_mixin.py:115} INFO - [2023-07-31 15:39:06,313] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:39:06,327] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.375 seconds
+[2023-07-31 15:39:36,673] {processor.py:153} INFO - Started process (PID=13965) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:39:36,674] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:39:36,676] {logging_mixin.py:115} INFO - [2023-07-31 15:39:36,676] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:39:37,053] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:39:37,064] {logging_mixin.py:115} INFO - [2023-07-31 15:39:37,064] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:39:37,086] {logging_mixin.py:115} INFO - [2023-07-31 15:39:37,086] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:39:37,095] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.435 seconds
+[2023-07-31 15:40:07,477] {processor.py:153} INFO - Started process (PID=13998) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:40:07,479] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:40:07,481] {logging_mixin.py:115} INFO - [2023-07-31 15:40:07,481] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:40:07,846] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:40:07,856] {logging_mixin.py:115} INFO - [2023-07-31 15:40:07,856] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:40:07,877] {logging_mixin.py:115} INFO - [2023-07-31 15:40:07,877] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:40:07,884] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.418 seconds
+[2023-07-31 15:40:38,177] {processor.py:153} INFO - Started process (PID=14031) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:40:38,178] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:40:38,178] {logging_mixin.py:115} INFO - [2023-07-31 15:40:38,178] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:40:38,637] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:40:38,649] {logging_mixin.py:115} INFO - [2023-07-31 15:40:38,648] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:40:38,669] {logging_mixin.py:115} INFO - [2023-07-31 15:40:38,669] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:40:38,677] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.505 seconds
+[2023-07-31 15:41:08,974] {processor.py:153} INFO - Started process (PID=14064) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:41:08,974] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:41:08,975] {logging_mixin.py:115} INFO - [2023-07-31 15:41:08,975] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:41:09,330] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:41:09,340] {logging_mixin.py:115} INFO - [2023-07-31 15:41:09,340] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:41:09,360] {logging_mixin.py:115} INFO - [2023-07-31 15:41:09,360] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:41:09,368] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.400 seconds
+[2023-07-31 15:41:39,710] {processor.py:153} INFO - Started process (PID=14097) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:41:39,712] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:41:39,713] {logging_mixin.py:115} INFO - [2023-07-31 15:41:39,713] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:41:40,126] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:41:40,135] {logging_mixin.py:115} INFO - [2023-07-31 15:41:40,135] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:41:40,157] {logging_mixin.py:115} INFO - [2023-07-31 15:41:40,156] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:41:40,164] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.466 seconds
+[2023-07-31 15:42:10,536] {processor.py:153} INFO - Started process (PID=14130) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:42:10,537] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:42:10,539] {logging_mixin.py:115} INFO - [2023-07-31 15:42:10,538] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:42:10,916] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:42:10,926] {logging_mixin.py:115} INFO - [2023-07-31 15:42:10,925] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:42:10,945] {logging_mixin.py:115} INFO - [2023-07-31 15:42:10,945] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:42:10,955] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.430 seconds
+[2023-07-31 15:42:41,334] {processor.py:153} INFO - Started process (PID=14163) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:42:41,335] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:42:41,336] {logging_mixin.py:115} INFO - [2023-07-31 15:42:41,336] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:42:41,683] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:42:41,693] {logging_mixin.py:115} INFO - [2023-07-31 15:42:41,693] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:42:41,713] {logging_mixin.py:115} INFO - [2023-07-31 15:42:41,713] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:42:41,721] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.396 seconds
+[2023-07-31 15:43:12,092] {processor.py:153} INFO - Started process (PID=14196) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:43:12,092] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:43:12,093] {logging_mixin.py:115} INFO - [2023-07-31 15:43:12,093] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:43:12,449] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:43:12,460] {logging_mixin.py:115} INFO - [2023-07-31 15:43:12,459] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:43:12,478] {logging_mixin.py:115} INFO - [2023-07-31 15:43:12,478] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:43:12,485] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.398 seconds
+[2023-07-31 15:43:42,925] {processor.py:153} INFO - Started process (PID=14229) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:43:42,926] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:43:42,926] {logging_mixin.py:115} INFO - [2023-07-31 15:43:42,926] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:43:43,284] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:43:43,296] {logging_mixin.py:115} INFO - [2023-07-31 15:43:43,296] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:43:43,314] {logging_mixin.py:115} INFO - [2023-07-31 15:43:43,314] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:43:43,324] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.402 seconds
+[2023-07-31 15:44:13,809] {processor.py:153} INFO - Started process (PID=14262) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:44:13,811] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:44:13,813] {logging_mixin.py:115} INFO - [2023-07-31 15:44:13,812] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:44:14,256] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:44:14,267] {logging_mixin.py:115} INFO - [2023-07-31 15:44:14,267] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:44:14,288] {logging_mixin.py:115} INFO - [2023-07-31 15:44:14,288] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:44:14,298] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.503 seconds
+[2023-07-31 15:44:44,669] {processor.py:153} INFO - Started process (PID=14295) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:44:44,670] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:44:44,672] {logging_mixin.py:115} INFO - [2023-07-31 15:44:44,672] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:44:45,058] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:44:45,070] {logging_mixin.py:115} INFO - [2023-07-31 15:44:45,070] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:44:45,091] {logging_mixin.py:115} INFO - [2023-07-31 15:44:45,091] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:44:45,101] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.446 seconds
+[2023-07-31 15:45:15,573] {processor.py:153} INFO - Started process (PID=14328) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:45:15,575] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:45:15,578] {logging_mixin.py:115} INFO - [2023-07-31 15:45:15,577] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:45:15,998] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:45:16,011] {logging_mixin.py:115} INFO - [2023-07-31 15:45:16,010] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:45:16,032] {logging_mixin.py:115} INFO - [2023-07-31 15:45:16,032] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:45:16,042] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.482 seconds
+[2023-07-31 15:45:46,372] {processor.py:153} INFO - Started process (PID=14361) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:45:46,373] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:45:46,375] {logging_mixin.py:115} INFO - [2023-07-31 15:45:46,375] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:45:46,762] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:45:46,772] {logging_mixin.py:115} INFO - [2023-07-31 15:45:46,772] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:45:46,794] {logging_mixin.py:115} INFO - [2023-07-31 15:45:46,794] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:45:46,803] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.442 seconds
+[2023-07-31 15:46:17,070] {processor.py:153} INFO - Started process (PID=14394) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:46:17,072] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:46:17,073] {logging_mixin.py:115} INFO - [2023-07-31 15:46:17,073] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:46:17,413] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:46:17,423] {logging_mixin.py:115} INFO - [2023-07-31 15:46:17,423] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:46:17,444] {logging_mixin.py:115} INFO - [2023-07-31 15:46:17,444] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:46:17,452] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.391 seconds
+[2023-07-31 15:46:47,823] {processor.py:153} INFO - Started process (PID=14427) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:46:47,825] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:46:47,827] {logging_mixin.py:115} INFO - [2023-07-31 15:46:47,826] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:46:48,280] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:46:48,294] {logging_mixin.py:115} INFO - [2023-07-31 15:46:48,293] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:46:48,318] {logging_mixin.py:115} INFO - [2023-07-31 15:46:48,318] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:46:48,328] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.518 seconds
+[2023-07-31 15:47:18,704] {processor.py:153} INFO - Started process (PID=14460) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:47:18,706] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:47:18,708] {logging_mixin.py:115} INFO - [2023-07-31 15:47:18,708] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:47:19,123] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:47:19,134] {logging_mixin.py:115} INFO - [2023-07-31 15:47:19,134] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:47:19,155] {logging_mixin.py:115} INFO - [2023-07-31 15:47:19,155] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:47:19,164] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.470 seconds
+[2023-07-31 15:47:49,606] {processor.py:153} INFO - Started process (PID=14493) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:47:49,608] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:47:49,609] {logging_mixin.py:115} INFO - [2023-07-31 15:47:49,609] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:47:50,022] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:47:50,033] {logging_mixin.py:115} INFO - [2023-07-31 15:47:50,033] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:47:50,056] {logging_mixin.py:115} INFO - [2023-07-31 15:47:50,055] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:47:50,066] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.473 seconds
+[2023-07-31 15:48:20,497] {processor.py:153} INFO - Started process (PID=14526) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:48:20,499] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:48:20,500] {logging_mixin.py:115} INFO - [2023-07-31 15:48:20,500] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:48:20,921] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:48:20,932] {logging_mixin.py:115} INFO - [2023-07-31 15:48:20,932] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:48:20,953] {logging_mixin.py:115} INFO - [2023-07-31 15:48:20,953] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:48:20,963] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.479 seconds
+[2023-07-31 15:48:51,470] {processor.py:153} INFO - Started process (PID=14559) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:48:51,471] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:48:51,473] {logging_mixin.py:115} INFO - [2023-07-31 15:48:51,473] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:48:51,824] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:48:51,833] {logging_mixin.py:115} INFO - [2023-07-31 15:48:51,833] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:48:51,853] {logging_mixin.py:115} INFO - [2023-07-31 15:48:51,853] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:48:51,861] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.398 seconds
+[2023-07-31 15:49:22,249] {processor.py:153} INFO - Started process (PID=14592) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:49:22,251] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:49:22,253] {logging_mixin.py:115} INFO - [2023-07-31 15:49:22,253] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:49:22,721] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:49:22,733] {logging_mixin.py:115} INFO - [2023-07-31 15:49:22,733] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:49:22,755] {logging_mixin.py:115} INFO - [2023-07-31 15:49:22,755] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:49:22,765] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.527 seconds
+[2023-07-31 15:49:53,060] {processor.py:153} INFO - Started process (PID=14625) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:49:53,061] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:49:53,062] {logging_mixin.py:115} INFO - [2023-07-31 15:49:53,062] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:49:53,419] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:49:53,430] {logging_mixin.py:115} INFO - [2023-07-31 15:49:53,430] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:49:53,453] {logging_mixin.py:115} INFO - [2023-07-31 15:49:53,453] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:49:53,463] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.408 seconds
+[2023-07-31 15:50:23,913] {processor.py:153} INFO - Started process (PID=14658) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:50:23,914] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:50:23,914] {logging_mixin.py:115} INFO - [2023-07-31 15:50:23,914] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:50:24,236] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:50:24,246] {logging_mixin.py:115} INFO - [2023-07-31 15:50:24,246] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:50:24,266] {logging_mixin.py:115} INFO - [2023-07-31 15:50:24,266] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:50:24,275] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.364 seconds
+[2023-07-31 15:50:54,589] {processor.py:153} INFO - Started process (PID=14691) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:50:54,590] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:50:54,591] {logging_mixin.py:115} INFO - [2023-07-31 15:50:54,590] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:50:54,903] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:50:54,912] {logging_mixin.py:115} INFO - [2023-07-31 15:50:54,912] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:50:54,928] {logging_mixin.py:115} INFO - [2023-07-31 15:50:54,928] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:50:54,936] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.350 seconds
+[2023-07-31 15:51:25,219] {processor.py:153} INFO - Started process (PID=14724) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:51:25,219] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:51:25,220] {logging_mixin.py:115} INFO - [2023-07-31 15:51:25,220] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:51:25,619] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:51:25,631] {logging_mixin.py:115} INFO - [2023-07-31 15:51:25,631] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:51:25,651] {logging_mixin.py:115} INFO - [2023-07-31 15:51:25,651] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:51:25,660] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.443 seconds
+[2023-07-31 15:51:55,962] {processor.py:153} INFO - Started process (PID=14757) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:51:55,963] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:51:55,965] {logging_mixin.py:115} INFO - [2023-07-31 15:51:55,965] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:51:56,300] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:51:56,309] {logging_mixin.py:115} INFO - [2023-07-31 15:51:56,308] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:51:56,326] {logging_mixin.py:115} INFO - [2023-07-31 15:51:56,325] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:51:56,333] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.381 seconds
+[2023-07-31 15:52:26,665] {processor.py:153} INFO - Started process (PID=14790) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:52:26,666] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:52:26,666] {logging_mixin.py:115} INFO - [2023-07-31 15:52:26,666] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:52:27,059] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:52:27,072] {logging_mixin.py:115} INFO - [2023-07-31 15:52:27,072] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:52:27,094] {logging_mixin.py:115} INFO - [2023-07-31 15:52:27,094] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:52:27,103] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.441 seconds
+[2023-07-31 15:52:57,333] {processor.py:153} INFO - Started process (PID=14823) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:52:57,334] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:52:57,334] {logging_mixin.py:115} INFO - [2023-07-31 15:52:57,334] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:52:57,674] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:52:57,685] {logging_mixin.py:115} INFO - [2023-07-31 15:52:57,684] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:52:57,704] {logging_mixin.py:115} INFO - [2023-07-31 15:52:57,704] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:52:57,713] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.383 seconds
+[2023-07-31 15:53:28,040] {processor.py:153} INFO - Started process (PID=14856) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:53:28,042] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:53:28,043] {logging_mixin.py:115} INFO - [2023-07-31 15:53:28,043] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:53:28,392] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:53:28,404] {logging_mixin.py:115} INFO - [2023-07-31 15:53:28,403] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:53:28,437] {logging_mixin.py:115} INFO - [2023-07-31 15:53:28,437] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:53:28,450] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.422 seconds
+[2023-07-31 15:53:58,774] {processor.py:153} INFO - Started process (PID=14889) to work on /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:53:58,775] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_final_project.py for tasks to queue
+[2023-07-31 15:53:58,775] {logging_mixin.py:115} INFO - [2023-07-31 15:53:58,775] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:53:59,070] {processor.py:651} INFO - DAG(s) dict_keys(['dag_final_project_digitalskola']) retrieved from /opt/airflow/dags/dag_final_project.py
+[2023-07-31 15:53:59,078] {logging_mixin.py:115} INFO - [2023-07-31 15:53:59,078] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-31 15:53:59,095] {logging_mixin.py:115} INFO - [2023-07-31 15:53:59,094] {dag.py:2919} INFO - Setting next_dagrun for dag_final_project_digitalskola to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31 15:53:59,102] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_final_project.py took 0.330 seconds

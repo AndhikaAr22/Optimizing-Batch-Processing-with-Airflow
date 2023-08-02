@@ -1,0 +1,35 @@
+[2023-07-23 05:43:12,110] {processor.py:153} INFO - Started process (PID=197) to work on /opt/airflow/dags/sample_connection.py
+[2023-07-23 05:43:12,110] {processor.py:641} INFO - Processing file /opt/airflow/dags/sample_connection.py for tasks to queue
+[2023-07-23 05:43:12,111] {logging_mixin.py:115} INFO - [2023-07-23 05:43:12,111] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sample_connection.py
+[2023-07-23 05:43:12,479] {processor.py:651} INFO - DAG(s) dict_keys(['sample_connection']) retrieved from /opt/airflow/dags/sample_connection.py
+[2023-07-23 05:43:12,505] {logging_mixin.py:115} INFO - [2023-07-23 05:43:12,505] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-23 05:43:12,543] {logging_mixin.py:115} INFO - [2023-07-23 05:43:12,543] {dag.py:2919} INFO - Setting next_dagrun for sample_connection to 2023-07-21T23:00:00+00:00, run_after=2023-07-22T23:00:00+00:00
+[2023-07-23 05:43:12,558] {processor.py:161} INFO - Processing /opt/airflow/dags/sample_connection.py took 0.452 seconds
+[2023-07-23 05:43:42,984] {processor.py:153} INFO - Started process (PID=252) to work on /opt/airflow/dags/sample_connection.py
+[2023-07-23 05:43:42,985] {processor.py:641} INFO - Processing file /opt/airflow/dags/sample_connection.py for tasks to queue
+[2023-07-23 05:43:42,986] {logging_mixin.py:115} INFO - [2023-07-23 05:43:42,986] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sample_connection.py
+[2023-07-23 05:43:43,397] {processor.py:651} INFO - DAG(s) dict_keys(['sample_connection']) retrieved from /opt/airflow/dags/sample_connection.py
+[2023-07-23 05:43:43,415] {logging_mixin.py:115} INFO - [2023-07-23 05:43:43,414] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-23 05:43:43,439] {logging_mixin.py:115} INFO - [2023-07-23 05:43:43,439] {dag.py:2919} INFO - Setting next_dagrun for sample_connection to 2023-07-21T23:00:00+00:00, run_after=2023-07-22T23:00:00+00:00
+[2023-07-23 05:43:43,458] {processor.py:161} INFO - Processing /opt/airflow/dags/sample_connection.py took 0.478 seconds
+[2023-07-23 05:44:13,741] {processor.py:153} INFO - Started process (PID=282) to work on /opt/airflow/dags/sample_connection.py
+[2023-07-23 05:44:13,742] {processor.py:641} INFO - Processing file /opt/airflow/dags/sample_connection.py for tasks to queue
+[2023-07-23 05:44:13,742] {logging_mixin.py:115} INFO - [2023-07-23 05:44:13,742] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sample_connection.py
+[2023-07-23 05:44:14,151] {processor.py:651} INFO - DAG(s) dict_keys(['sample_connection']) retrieved from /opt/airflow/dags/sample_connection.py
+[2023-07-23 05:44:14,170] {logging_mixin.py:115} INFO - [2023-07-23 05:44:14,169] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-23 05:44:14,192] {logging_mixin.py:115} INFO - [2023-07-23 05:44:14,192] {dag.py:2919} INFO - Setting next_dagrun for sample_connection to 2023-07-21T23:00:00+00:00, run_after=2023-07-22T23:00:00+00:00
+[2023-07-23 05:44:14,203] {processor.py:161} INFO - Processing /opt/airflow/dags/sample_connection.py took 0.466 seconds
+[2023-07-23 05:44:44,474] {processor.py:153} INFO - Started process (PID=309) to work on /opt/airflow/dags/sample_connection.py
+[2023-07-23 05:44:44,474] {processor.py:641} INFO - Processing file /opt/airflow/dags/sample_connection.py for tasks to queue
+[2023-07-23 05:44:44,475] {logging_mixin.py:115} INFO - [2023-07-23 05:44:44,475] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sample_connection.py
+[2023-07-23 05:44:44,867] {processor.py:651} INFO - DAG(s) dict_keys(['sample_connection']) retrieved from /opt/airflow/dags/sample_connection.py
+[2023-07-23 05:44:44,884] {logging_mixin.py:115} INFO - [2023-07-23 05:44:44,884] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-23 05:44:44,906] {logging_mixin.py:115} INFO - [2023-07-23 05:44:44,906] {dag.py:2919} INFO - Setting next_dagrun for sample_connection to 2023-07-21T23:00:00+00:00, run_after=2023-07-22T23:00:00+00:00
+[2023-07-23 05:44:44,917] {processor.py:161} INFO - Processing /opt/airflow/dags/sample_connection.py took 0.448 seconds
+[2023-07-23 06:06:59,072] {processor.py:153} INFO - Started process (PID=197) to work on /opt/airflow/dags/sample_connection.py
+[2023-07-23 06:06:59,073] {processor.py:641} INFO - Processing file /opt/airflow/dags/sample_connection.py for tasks to queue
+[2023-07-23 06:06:59,073] {logging_mixin.py:115} INFO - [2023-07-23 06:06:59,073] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sample_connection.py
+[2023-07-23 06:06:59,598] {processor.py:651} INFO - DAG(s) dict_keys(['sample_connection']) retrieved from /opt/airflow/dags/sample_connection.py
+[2023-07-23 06:06:59,631] {logging_mixin.py:115} INFO - [2023-07-23 06:06:59,630] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-07-23 06:06:59,667] {logging_mixin.py:115} INFO - [2023-07-23 06:06:59,666] {dag.py:2919} INFO - Setting next_dagrun for sample_connection to 2023-07-21T23:00:00+00:00, run_after=2023-07-22T23:00:00+00:00
+[2023-07-23 06:06:59,695] {processor.py:161} INFO - Processing /opt/airflow/dags/sample_connection.py took 0.625 seconds

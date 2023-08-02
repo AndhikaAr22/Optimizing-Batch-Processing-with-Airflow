@@ -1,0 +1,25 @@
+[2023-07-30 15:45:37,611] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: check_postgres_connection_python.check_postgres_connection_task manual__2023-07-30T15:45:36.029359+00:00 [queued]>
+[2023-07-30 15:45:37,620] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: check_postgres_connection_python.check_postgres_connection_task manual__2023-07-30T15:45:36.029359+00:00 [queued]>
+[2023-07-30 15:45:37,620] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-30 15:45:37,620] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2023-07-30 15:45:37,620] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-30 15:45:37,633] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): check_postgres_connection_task> on 2023-07-30 15:45:36.029359+00:00
+[2023-07-30 15:45:37,648] {standard_task_runner.py:52} INFO - Started process 474 to run task
+[2023-07-30 15:45:37,658] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'check_postgres_connection_python', 'check_postgres_connection_task', 'manual__2023-07-30T15:45:36.029359+00:00', '--job-id', '332', '--raw', '--subdir', 'DAGS_FOLDER/simple_dag_connection.py', '--cfg-path', '/tmp/tmpavq5at0u', '--error-file', '/tmp/tmp3sim5eu_']
+[2023-07-30 15:45:37,661] {standard_task_runner.py:80} INFO - Job 332: Subtask check_postgres_connection_task
+[2023-07-30 15:45:37,735] {task_command.py:369} INFO - Running <TaskInstance: check_postgres_connection_python.check_postgres_connection_task manual__2023-07-30T15:45:36.029359+00:00 [running]> on host 0981bc456e01
+[2023-07-30 15:45:37,805] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=check_postgres_connection_python
+AIRFLOW_CTX_TASK_ID=check_postgres_connection_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-30T15:45:36.029359+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-30T15:45:36.029359+00:00
+[2023-07-30 15:45:37,815] {base.py:68} INFO - Using connection ID 'pg_postgres' for task execution.
+[2023-07-30 15:45:37,823] {logging_mixin.py:115} INFO - Koneksi ke PostgreSQL berhasil!
+[2023-07-30 15:45:37,823] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-30 15:45:37,836] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=check_postgres_connection_python, task_id=check_postgres_connection_task, execution_date=20230730T154536, start_date=20230730T154537, end_date=20230730T154537
+[2023-07-30 15:45:37,869] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-30 15:45:37,901] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,53 @@
+[2023-07-31 14:23:48,952] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag_final_project_digitalskola.get_data_from_api manual__2023-07-31T14:23:47.255137+00:00 [queued]>
+[2023-07-31 14:23:48,963] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag_final_project_digitalskola.get_data_from_api manual__2023-07-31T14:23:47.255137+00:00 [queued]>
+[2023-07-31 14:23:48,964] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-31 14:23:48,964] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-31 14:23:48,964] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-31 14:23:48,983] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): get_data_from_api> on 2023-07-31 14:23:47.255137+00:00
+[2023-07-31 14:23:48,987] {standard_task_runner.py:52} INFO - Started process 9074 to run task
+[2023-07-31 14:23:48,991] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dag_final_project_digitalskola', 'get_data_from_api', 'manual__2023-07-31T14:23:47.255137+00:00', '--job-id', '368', '--raw', '--subdir', 'DAGS_FOLDER/simple_dag_connection.py', '--cfg-path', '/tmp/tmp4fr0hzmj', '--error-file', '/tmp/tmpn792lvhx']
+[2023-07-31 14:23:48,992] {standard_task_runner.py:80} INFO - Job 368: Subtask get_data_from_api
+[2023-07-31 14:23:49,056] {task_command.py:369} INFO - Running <TaskInstance: dag_final_project_digitalskola.get_data_from_api manual__2023-07-31T14:23:47.255137+00:00 [running]> on host ce90898393a2
+[2023-07-31 14:23:49,137] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dag_final_project_digitalskola
+AIRFLOW_CTX_TASK_ID=get_data_from_api
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-31T14:23:47.255137+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-31T14:23:47.255137+00:00
+[2023-07-31 14:23:49,177] {logging_mixin.py:115} INFO - connect engine ***
+[2023-07-31 14:23:49,444] {insert_data_db.py:15} INFO - Data from api to dataframe ready
+[2023-07-31 14:23:49,454] {logging_mixin.py:115} INFO - <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 145 entries, 0 to 144
+Data columns (total 20 columns):
+ #   Column                    Non-Null Count  Dtype 
+---  ------                    --------------  ----- 
+ 0   CLOSECONTACT              145 non-null    int64 
+ 1   CONFIRMATION              145 non-null    int64 
+ 2   PROBABLE                  145 non-null    int64 
+ 3   SUSPECT                   145 non-null    int64 
+ 4   closecontact_dikarantina  145 non-null    int64 
+ 5   closecontact_discarded    145 non-null    int64 
+ 6   closecontact_meninggal    145 non-null    int64 
+ 7   confirmation_meninggal    145 non-null    int64 
+ 8   confirmation_sembuh       145 non-null    int64 
+ 9   kode_kab                  145 non-null    object
+ 10  kode_prov                 145 non-null    object
+ 11  nama_kab                  145 non-null    object
+ 12  nama_prov                 145 non-null    object
+ 13  probable_diisolasi        145 non-null    int64 
+ 14  probable_discarded        145 non-null    int64 
+ 15  probable_meninggal        145 non-null    int64 
+ 16  suspect_diisolasi         145 non-null    int64 
+ 17  suspect_discarded         145 non-null    int64 
+ 18  suspect_meninggal         145 non-null    int64 
+ 19  tanggal                   145 non-null    object
+dtypes: int64(15), object(5)
+memory usage: 22.8+ KB
+[2023-07-31 14:23:49,454] {logging_mixin.py:115} INFO - None
+[2023-07-31 14:23:49,559] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-31 14:23:49,575] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=dag_final_project_digitalskola, task_id=get_data_from_api, execution_date=20230731T142347, start_date=20230731T142348, end_date=20230731T142349
+[2023-07-31 14:23:49,603] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-31 14:23:49,646] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

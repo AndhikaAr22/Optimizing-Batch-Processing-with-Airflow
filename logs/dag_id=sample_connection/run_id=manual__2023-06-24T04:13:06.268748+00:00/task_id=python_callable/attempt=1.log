@@ -1,0 +1,36 @@
+[2023-06-24 04:13:07,656] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: sample_connection.python_callable manual__2023-06-24T04:13:06.268748+00:00 [queued]>
+[2023-06-24 04:13:07,667] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: sample_connection.python_callable manual__2023-06-24T04:13:06.268748+00:00 [queued]>
+[2023-06-24 04:13:07,667] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-24 04:13:07,667] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-06-24 04:13:07,667] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-24 04:13:07,683] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): python_callable> on 2023-06-24 04:13:06.268748+00:00
+[2023-06-24 04:13:07,688] {standard_task_runner.py:52} INFO - Started process 415 to run task
+[2023-06-24 04:13:07,691] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'sample_connection', 'python_callable', 'manual__2023-06-24T04:13:06.268748+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/sample_connection.py', '--cfg-path', '/tmp/tmp_fcy7362', '--error-file', '/tmp/tmpwi6i0914']
+[2023-06-24 04:13:07,692] {standard_task_runner.py:80} INFO - Job 3: Subtask python_callable
+[2023-06-24 04:13:07,748] {task_command.py:369} INFO - Running <TaskInstance: sample_connection.python_callable manual__2023-06-24T04:13:06.268748+00:00 [running]> on host 36e9483e82ad
+[2023-06-24 04:13:07,828] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=sample_connection
+AIRFLOW_CTX_TASK_ID=python_callable
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-24T04:13:06.268748+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-06-24T04:13:06.268748+00:00
+[2023-06-24 04:13:07,855] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/sample_connection.py", line 27, in python_callable
+    conn = BaseHook.get_connection('pg-conn')
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/base.py", line 67, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 430, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `pg-conn` isn't defined
+[2023-06-24 04:13:07,858] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=sample_connection, task_id=python_callable, execution_date=20230624T041306, start_date=20230624T041307, end_date=20230624T041307
+[2023-06-24 04:13:07,869] {standard_task_runner.py:97} ERROR - Failed to execute job 3 for task python_callable (The conn_id `pg-conn` isn't defined; 415)
+[2023-06-24 04:13:07,903] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-06-24 04:13:07,943] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,35 @@
+[2023-07-30 16:00:06,981] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: show_table_data.show_table_data manual__2023-07-30T16:00:06.630248+00:00 [queued]>
+[2023-07-30 16:00:06,989] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: show_table_data.show_table_data manual__2023-07-30T16:00:06.630248+00:00 [queued]>
+[2023-07-30 16:00:06,989] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-30 16:00:06,989] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2023-07-30 16:00:06,989] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-30 16:00:07,003] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): show_table_data> on 2023-07-30 16:00:06.630248+00:00
+[2023-07-30 16:00:07,007] {standard_task_runner.py:52} INFO - Started process 1420 to run task
+[2023-07-30 16:00:07,010] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'show_table_data', 'show_table_data', 'manual__2023-07-30T16:00:06.630248+00:00', '--job-id', '339', '--raw', '--subdir', 'DAGS_FOLDER/simple_dag_connection.py', '--cfg-path', '/tmp/tmp_7i6fwis', '--error-file', '/tmp/tmpsor62_a1']
+[2023-07-30 16:00:07,011] {standard_task_runner.py:80} INFO - Job 339: Subtask show_table_data
+[2023-07-30 16:00:07,057] {task_command.py:369} INFO - Running <TaskInstance: show_table_data.show_table_data manual__2023-07-30T16:00:06.630248+00:00 [running]> on host 0981bc456e01
+[2023-07-30 16:00:07,135] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=show_table_data
+AIRFLOW_CTX_TASK_ID=show_table_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-30T16:00:06.630248+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-30T16:00:06.630248+00:00
+[2023-07-30 16:00:07,154] {logging_mixin.py:115} INFO - Isi tabel:
+[2023-07-30 16:00:07,154] {logging_mixin.py:115} INFO - (1, 'closecontact', 'dikarantina', 'closecontact_dikarantina')
+[2023-07-30 16:00:07,154] {logging_mixin.py:115} INFO - (2, 'closecontact', 'discarded', 'closecontact_discarded')
+[2023-07-30 16:00:07,154] {logging_mixin.py:115} INFO - (3, 'closecontact', 'meninggal', 'closecontact_meninggal')
+[2023-07-30 16:00:07,155] {logging_mixin.py:115} INFO - (4, 'confirmation', 'meninggal', 'confirmation_meninggal')
+[2023-07-30 16:00:07,155] {logging_mixin.py:115} INFO - (5, 'confirmation', 'sembuh', 'confirmation_sembuh')
+[2023-07-30 16:00:07,155] {logging_mixin.py:115} INFO - (6, 'probable', 'diisolasi', 'probable_diisolasi')
+[2023-07-30 16:00:07,155] {logging_mixin.py:115} INFO - (7, 'probable', 'discarded', 'probable_discarded')
+[2023-07-30 16:00:07,155] {logging_mixin.py:115} INFO - (8, 'probable', 'meninggal', 'probable_meninggal')
+[2023-07-30 16:00:07,155] {logging_mixin.py:115} INFO - (9, 'suspect', 'diisolasi', 'suspect_diisolasi')
+[2023-07-30 16:00:07,155] {logging_mixin.py:115} INFO - (10, 'suspect', 'discarded', 'suspect_discarded')
+[2023-07-30 16:00:07,155] {logging_mixin.py:115} INFO - (11, 'suspect', 'meninggal', 'suspect_meninggal')
+[2023-07-30 16:00:07,155] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-30 16:00:07,167] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=show_table_data, task_id=show_table_data, execution_date=20230730T160006, start_date=20230730T160006, end_date=20230730T160007
+[2023-07-30 16:00:07,181] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-30 16:00:07,215] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

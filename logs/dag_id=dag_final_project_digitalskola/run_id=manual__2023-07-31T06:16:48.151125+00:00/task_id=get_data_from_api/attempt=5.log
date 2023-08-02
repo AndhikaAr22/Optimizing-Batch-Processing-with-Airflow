@@ -1,0 +1,77 @@
+[2023-07-31 07:10:57,535] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag_final_project_digitalskola.get_data_from_api manual__2023-07-31T06:16:48.151125+00:00 [queued]>
+[2023-07-31 07:10:57,548] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag_final_project_digitalskola.get_data_from_api manual__2023-07-31T06:16:48.151125+00:00 [queued]>
+[2023-07-31 07:10:57,548] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-31 07:10:57,548] {taskinstance.py:1357} INFO - Starting attempt 5 of 5
+[2023-07-31 07:10:57,548] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-31 07:10:57,560] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): get_data_from_api> on 2023-07-31 06:16:48.151125+00:00
+[2023-07-31 07:10:57,564] {standard_task_runner.py:52} INFO - Started process 5186 to run task
+[2023-07-31 07:10:57,566] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dag_final_project_digitalskola', 'get_data_from_api', 'manual__2023-07-31T06:16:48.151125+00:00', '--job-id', '357', '--raw', '--subdir', 'DAGS_FOLDER/simple_dag_connection.py', '--cfg-path', '/tmp/tmpnwj1_lyo', '--error-file', '/tmp/tmp8mmw8vvr']
+[2023-07-31 07:10:57,567] {standard_task_runner.py:80} INFO - Job 357: Subtask get_data_from_api
+[2023-07-31 07:10:57,610] {task_command.py:369} INFO - Running <TaskInstance: dag_final_project_digitalskola.get_data_from_api manual__2023-07-31T06:16:48.151125+00:00 [running]> on host 2cb2fe2d8275
+[2023-07-31 07:10:57,671] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dag_final_project_digitalskola
+AIRFLOW_CTX_TASK_ID=get_data_from_api
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-31T06:16:48.151125+00:00
+AIRFLOW_CTX_TRY_NUMBER=5
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-31T06:16:48.151125+00:00
+[2023-07-31 07:10:57,701] {logging_mixin.py:115} INFO - connect engine ***
+[2023-07-31 07:10:57,701] {logging_mixin.py:115} INFO - connect engine *** succes
+[2023-07-31 07:10:57,777] {insert_data_db.py:15} INFO - Data from api to dataframe ready
+[2023-07-31 07:10:57,792] {logging_mixin.py:115} INFO - <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 145 entries, 0 to 144
+Data columns (total 20 columns):
+ #   Column                    Non-Null Count  Dtype 
+---  ------                    --------------  ----- 
+ 0   CLOSECONTACT              145 non-null    int64 
+ 1   CONFIRMATION              145 non-null    int64 
+ 2   PROBABLE                  145 non-null    int64 
+ 3   SUSPECT                   145 non-null    int64 
+ 4   closecontact_dikarantina  145 non-null    int64 
+ 5   closecontact_discarded    145 non-null    int64 
+ 6   closecontact_meninggal    145 non-null    int64 
+ 7   confirmation_meninggal    145 non-null    int64 
+ 8   confirmation_sembuh       145 non-null    int64 
+ 9   kode_kab                  145 non-null    object
+ 10  kode_prov                 145 non-null    object
+ 11  nama_kab                  145 non-null    object
+ 12  nama_prov                 145 non-null    object
+ 13  probable_diisolasi        145 non-null    int64 
+ 14  probable_discarded        145 non-null    int64 
+ 15  probable_meninggal        145 non-null    int64 
+ 16  suspect_diisolasi         145 non-null    int64 
+ 17  suspect_discarded         145 non-null    int64 
+ 18  suspect_meninggal         145 non-null    int64 
+ 19  tanggal                   145 non-null    object
+dtypes: int64(15), object(5)
+memory usage: 22.8+ KB
+[2023-07-31 07:10:57,793] {logging_mixin.py:115} INFO - None
+[2023-07-31 07:10:57,799] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/package/insert_data_db.py", line 24, in insert_raw_data
+    data.to_sql(name='covid_raw_data', con=mysql_aunt, if_exists="replace", index=False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/generic.py", line 2882, in to_sql
+    method=method,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 728, in to_sql
+    **engine_kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 2225, in to_sql
+    table.create()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 856, in create
+    if self.exists():
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 840, in exists
+    return self.pd_sql.has_table(self.name, self.schema)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 2236, in has_table
+    return len(self.execute(query, [name]).fetchall()) > 0
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 2054, in execute
+    cur = self.con.cursor()
+AttributeError: 'NoneType' object has no attribute 'cursor'
+[2023-07-31 07:10:57,811] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=dag_final_project_digitalskola, task_id=get_data_from_api, execution_date=20230731T061648, start_date=20230731T071057, end_date=20230731T071057
+[2023-07-31 07:10:57,820] {standard_task_runner.py:97} ERROR - Failed to execute job 357 for task get_data_from_api ('NoneType' object has no attribute 'cursor'; 5186)
+[2023-07-31 07:10:57,859] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-07-31 07:10:57,898] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

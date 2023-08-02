@@ -1,0 +1,30 @@
+[2023-07-31 15:14:12,196] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag_final_project_digitalskola.insert_province_daily manual__2023-07-31T14:23:47.255137+00:00 [queued]>
+[2023-07-31 15:14:12,203] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag_final_project_digitalskola.insert_province_daily manual__2023-07-31T14:23:47.255137+00:00 [queued]>
+[2023-07-31 15:14:12,204] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-31 15:14:12,204] {taskinstance.py:1357} INFO - Starting attempt 2 of 2
+[2023-07-31 15:14:12,204] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-31 15:14:12,215] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): insert_province_daily> on 2023-07-31 14:23:47.255137+00:00
+[2023-07-31 15:14:12,220] {standard_task_runner.py:52} INFO - Started process 12320 to run task
+[2023-07-31 15:14:12,223] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dag_final_project_digitalskola', 'insert_province_daily', 'manual__2023-07-31T14:23:47.255137+00:00', '--job-id', '372', '--raw', '--subdir', 'DAGS_FOLDER/simple_dag_connection.py', '--cfg-path', '/tmp/tmpbhp9c1q5', '--error-file', '/tmp/tmp0suww0hi']
+[2023-07-31 15:14:12,223] {standard_task_runner.py:80} INFO - Job 372: Subtask insert_province_daily
+[2023-07-31 15:14:12,273] {task_command.py:369} INFO - Running <TaskInstance: dag_final_project_digitalskola.insert_province_daily manual__2023-07-31T14:23:47.255137+00:00 [running]> on host ce90898393a2
+[2023-07-31 15:14:12,338] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dag_final_project_digitalskola
+AIRFLOW_CTX_TASK_ID=insert_province_daily
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-31T14:23:47.255137+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-31T14:23:47.255137+00:00
+[2023-07-31 15:14:12,350] {logging_mixin.py:115} INFO - connect engine Postgresql
+[2023-07-31 15:14:12,385] {logging_mixin.py:115} INFO - connect engine ***
+[2023-07-31 15:14:12,409] {logging_mixin.py:115} INFO - connect engine Postgresql
+[2023-07-31 15:14:12,420] {logging_mixin.py:115} INFO - connect engine ***
+[2023-07-31 15:14:12,469] {logging_mixin.py:115} INFO - insert data dim_Case to dwh postgres success
+[2023-07-31 15:14:12,520] {logging_mixin.py:115} INFO - insert data province_daily to dwh postgres success
+[2023-07-31 15:14:12,520] {simple_dag_connection.py:19} INFO - success insert data to fact table
+[2023-07-31 15:14:12,520] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-31 15:14:12,531] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=dag_final_project_digitalskola, task_id=insert_province_daily, execution_date=20230731T142347, start_date=20230731T151412, end_date=20230731T151412
+[2023-07-31 15:14:12,556] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-31 15:14:12,627] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

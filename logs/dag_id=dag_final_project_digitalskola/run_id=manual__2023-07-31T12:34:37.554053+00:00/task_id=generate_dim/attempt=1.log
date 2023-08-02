@@ -1,0 +1,32 @@
+[2023-07-31 12:34:39,843] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag_final_project_digitalskola.generate_dim manual__2023-07-31T12:34:37.554053+00:00 [queued]>
+[2023-07-31 12:34:39,851] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag_final_project_digitalskola.generate_dim manual__2023-07-31T12:34:37.554053+00:00 [queued]>
+[2023-07-31 12:34:39,851] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-31 12:34:39,852] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-31 12:34:39,852] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-31 12:34:39,863] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): generate_dim> on 2023-07-31 12:34:37.554053+00:00
+[2023-07-31 12:34:39,867] {standard_task_runner.py:52} INFO - Started process 2018 to run task
+[2023-07-31 12:34:39,869] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dag_final_project_digitalskola', 'generate_dim', 'manual__2023-07-31T12:34:37.554053+00:00', '--job-id', '361', '--raw', '--subdir', 'DAGS_FOLDER/simple_dag_connection.py', '--cfg-path', '/tmp/tmp_0kzoya1', '--error-file', '/tmp/tmpr00saxw0']
+[2023-07-31 12:34:39,870] {standard_task_runner.py:80} INFO - Job 361: Subtask generate_dim
+[2023-07-31 12:34:39,917] {task_command.py:369} INFO - Running <TaskInstance: dag_final_project_digitalskola.generate_dim manual__2023-07-31T12:34:37.554053+00:00 [running]> on host ce90898393a2
+[2023-07-31 12:34:39,980] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dag_final_project_digitalskola
+AIRFLOW_CTX_TASK_ID=generate_dim
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-31T12:34:37.554053+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-31T12:34:37.554053+00:00
+[2023-07-31 12:34:40,007] {logging_mixin.py:115} INFO - connect engine Postgresql
+[2023-07-31 12:34:40,040] {logging_mixin.py:115} INFO - connect engine ***
+[2023-07-31 12:34:40,093] {insert_data_db.py:42} INFO - insert data dim_province to dwh postgres success
+[2023-07-31 12:34:40,105] {logging_mixin.py:115} INFO - connect engine Postgresql
+[2023-07-31 12:34:40,117] {logging_mixin.py:115} INFO - connect engine ***
+[2023-07-31 12:34:40,154] {insert_data_db.py:52} INFO - insert data dim_district to dwh postgres success
+[2023-07-31 12:34:40,165] {logging_mixin.py:115} INFO - connect engine Postgresql
+[2023-07-31 12:34:40,176] {logging_mixin.py:115} INFO - connect engine ***
+[2023-07-31 12:34:40,216] {insert_data_db.py:70} INFO - insert data dim_Case to dwh postgres success
+[2023-07-31 12:34:40,216] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-31 12:34:40,227] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=dag_final_project_digitalskola, task_id=generate_dim, execution_date=20230731T123437, start_date=20230731T123439, end_date=20230731T123440
+[2023-07-31 12:34:40,242] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-31 12:34:40,274] {local_task_job.py:273} INFO - 2 downstream tasks scheduled from follow-on schedule check

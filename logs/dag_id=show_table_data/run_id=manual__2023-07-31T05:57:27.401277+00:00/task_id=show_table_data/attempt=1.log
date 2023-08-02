@@ -1,0 +1,90 @@
+[2023-07-31 05:57:27,719] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: show_table_data.show_table_data manual__2023-07-31T05:57:27.401277+00:00 [queued]>
+[2023-07-31 05:57:27,731] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: show_table_data.show_table_data manual__2023-07-31T05:57:27.401277+00:00 [queued]>
+[2023-07-31 05:57:27,731] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-31 05:57:27,731] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2023-07-31 05:57:27,731] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-31 05:57:27,747] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): show_table_data> on 2023-07-31 05:57:27.401277+00:00
+[2023-07-31 05:57:27,751] {standard_task_runner.py:52} INFO - Started process 429 to run task
+[2023-07-31 05:57:27,754] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'show_table_data', 'show_table_data', 'manual__2023-07-31T05:57:27.401277+00:00', '--job-id', '346', '--raw', '--subdir', 'DAGS_FOLDER/simple_dag_connection.py', '--cfg-path', '/tmp/tmpe866gkrt', '--error-file', '/tmp/tmp23lv77a5']
+[2023-07-31 05:57:27,755] {standard_task_runner.py:80} INFO - Job 346: Subtask show_table_data
+[2023-07-31 05:57:27,810] {task_command.py:369} INFO - Running <TaskInstance: show_table_data.show_table_data manual__2023-07-31T05:57:27.401277+00:00 [running]> on host 2cb2fe2d8275
+[2023-07-31 05:57:27,918] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=show_table_data
+AIRFLOW_CTX_TASK_ID=show_table_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-31T05:57:27.401277+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-31T05:57:27.401277+00:00
+[2023-07-31 05:57:27,941] {logging_mixin.py:115} INFO - Isi tabel:
+[2023-07-31 05:57:27,941] {logging_mixin.py:115} INFO - (1, '32', 1, datetime.date(2020, 8, 5), 1815)
+[2023-07-31 05:57:27,941] {logging_mixin.py:115} INFO - (12, '32', 1, datetime.date(2020, 8, 6), 197)
+[2023-07-31 05:57:27,941] {logging_mixin.py:115} INFO - (23, '32', 1, datetime.date(2020, 8, 7), 37)
+[2023-07-31 05:57:27,941] {logging_mixin.py:115} INFO - (34, '32', 1, datetime.date(2020, 8, 8), 224)
+[2023-07-31 05:57:27,941] {logging_mixin.py:115} INFO - (45, '32', 1, datetime.date(2020, 8, 9), 120)
+[2023-07-31 05:57:27,941] {logging_mixin.py:115} INFO - (56, '32', 1, datetime.date(2020, 8, 10), 114)
+[2023-07-31 05:57:27,941] {logging_mixin.py:115} INFO - (2, '32', 2, datetime.date(2020, 8, 5), 23782)
+[2023-07-31 05:57:27,941] {logging_mixin.py:115} INFO - (13, '32', 2, datetime.date(2020, 8, 6), 144)
+[2023-07-31 05:57:27,941] {logging_mixin.py:115} INFO - (24, '32', 2, datetime.date(2020, 8, 7), 8)
+[2023-07-31 05:57:27,941] {logging_mixin.py:115} INFO - (35, '32', 2, datetime.date(2020, 8, 8), 83)
+[2023-07-31 05:57:27,941] {logging_mixin.py:115} INFO - (46, '32', 2, datetime.date(2020, 8, 9), 36)
+[2023-07-31 05:57:27,942] {logging_mixin.py:115} INFO - (57, '32', 2, datetime.date(2020, 8, 10), 49)
+[2023-07-31 05:57:27,942] {logging_mixin.py:115} INFO - (3, '32', 3, datetime.date(2020, 8, 5), 0)
+[2023-07-31 05:57:27,942] {logging_mixin.py:115} INFO - (14, '32', 3, datetime.date(2020, 8, 6), 0)
+[2023-07-31 05:57:27,942] {logging_mixin.py:115} INFO - (25, '32', 3, datetime.date(2020, 8, 7), 0)
+[2023-07-31 05:57:27,942] {logging_mixin.py:115} INFO - (36, '32', 3, datetime.date(2020, 8, 8), 0)
+[2023-07-31 05:57:27,942] {logging_mixin.py:115} INFO - (47, '32', 3, datetime.date(2020, 8, 9), 0)
+[2023-07-31 05:57:27,942] {logging_mixin.py:115} INFO - (58, '32', 3, datetime.date(2020, 8, 10), 0)
+[2023-07-31 05:57:27,942] {logging_mixin.py:115} INFO - (4, '32', 4, datetime.date(2020, 8, 5), 0)
+[2023-07-31 05:57:27,942] {logging_mixin.py:115} INFO - (15, '32', 4, datetime.date(2020, 8, 6), 211)
+[2023-07-31 05:57:27,942] {logging_mixin.py:115} INFO - (26, '32', 4, datetime.date(2020, 8, 7), 4)
+[2023-07-31 05:57:27,942] {logging_mixin.py:115} INFO - (37, '32', 4, datetime.date(2020, 8, 8), 3)
+[2023-07-31 05:57:27,942] {logging_mixin.py:115} INFO - (48, '32', 4, datetime.date(2020, 8, 9), 4)
+[2023-07-31 05:57:27,942] {logging_mixin.py:115} INFO - (59, '32', 4, datetime.date(2020, 8, 10), 0)
+[2023-07-31 05:57:27,942] {logging_mixin.py:115} INFO - (5, '32', 5, datetime.date(2020, 8, 5), 0)
+[2023-07-31 05:57:27,942] {logging_mixin.py:115} INFO - (16, '32', 5, datetime.date(2020, 8, 6), 3281)
+[2023-07-31 05:57:27,942] {logging_mixin.py:115} INFO - (27, '32', 5, datetime.date(2020, 8, 7), 0)
+[2023-07-31 05:57:27,942] {logging_mixin.py:115} INFO - (38, '32', 5, datetime.date(2020, 8, 8), 0)
+[2023-07-31 05:57:27,942] {logging_mixin.py:115} INFO - (49, '32', 5, datetime.date(2020, 8, 9), 0)
+[2023-07-31 05:57:27,942] {logging_mixin.py:115} INFO - (60, '32', 5, datetime.date(2020, 8, 10), 0)
+[2023-07-31 05:57:27,942] {logging_mixin.py:115} INFO - (6, '32', 6, datetime.date(2020, 8, 5), 1)
+[2023-07-31 05:57:27,943] {logging_mixin.py:115} INFO - (17, '32', 6, datetime.date(2020, 8, 6), 35)
+[2023-07-31 05:57:27,943] {logging_mixin.py:115} INFO - (28, '32', 6, datetime.date(2020, 8, 7), 36)
+[2023-07-31 05:57:27,943] {logging_mixin.py:115} INFO - (39, '32', 6, datetime.date(2020, 8, 8), 36)
+[2023-07-31 05:57:27,943] {logging_mixin.py:115} INFO - (50, '32', 6, datetime.date(2020, 8, 9), 37)
+[2023-07-31 05:57:27,943] {logging_mixin.py:115} INFO - (61, '32', 6, datetime.date(2020, 8, 10), 1)
+[2023-07-31 05:57:27,943] {logging_mixin.py:115} INFO - (7, '32', 7, datetime.date(2020, 8, 5), 49)
+[2023-07-31 05:57:27,943] {logging_mixin.py:115} INFO - (18, '32', 7, datetime.date(2020, 8, 6), 63)
+[2023-07-31 05:57:27,943] {logging_mixin.py:115} INFO - (29, '32', 7, datetime.date(2020, 8, 7), 63)
+[2023-07-31 05:57:27,943] {logging_mixin.py:115} INFO - (40, '32', 7, datetime.date(2020, 8, 8), 213)
+[2023-07-31 05:57:27,943] {logging_mixin.py:115} INFO - (51, '32', 7, datetime.date(2020, 8, 9), 215)
+[2023-07-31 05:57:27,943] {logging_mixin.py:115} INFO - (62, '32', 7, datetime.date(2020, 8, 10), 6)
+[2023-07-31 05:57:27,943] {logging_mixin.py:115} INFO - (8, '32', 8, datetime.date(2020, 8, 5), 405)
+[2023-07-31 05:57:27,943] {logging_mixin.py:115} INFO - (19, '32', 8, datetime.date(2020, 8, 6), 419)
+[2023-07-31 05:57:27,943] {logging_mixin.py:115} INFO - (30, '32', 8, datetime.date(2020, 8, 7), 419)
+[2023-07-31 05:57:27,943] {logging_mixin.py:115} INFO - (41, '32', 8, datetime.date(2020, 8, 8), 442)
+[2023-07-31 05:57:27,943] {logging_mixin.py:115} INFO - (52, '32', 8, datetime.date(2020, 8, 9), 491)
+[2023-07-31 05:57:27,943] {logging_mixin.py:115} INFO - (63, '32', 8, datetime.date(2020, 8, 10), 364)
+[2023-07-31 05:57:27,943] {logging_mixin.py:115} INFO - (9, '32', 9, datetime.date(2020, 8, 5), 21270)
+[2023-07-31 05:57:27,944] {logging_mixin.py:115} INFO - (20, '32', 9, datetime.date(2020, 8, 6), 218)
+[2023-07-31 05:57:27,944] {logging_mixin.py:115} INFO - (31, '32', 9, datetime.date(2020, 8, 7), 21)
+[2023-07-31 05:57:27,944] {logging_mixin.py:115} INFO - (42, '32', 9, datetime.date(2020, 8, 8), 60)
+[2023-07-31 05:57:27,944] {logging_mixin.py:115} INFO - (53, '32', 9, datetime.date(2020, 8, 9), 249)
+[2023-07-31 05:57:27,944] {logging_mixin.py:115} INFO - (64, '32', 9, datetime.date(2020, 8, 10), 12)
+[2023-07-31 05:57:27,944] {logging_mixin.py:115} INFO - (10, '32', 10, datetime.date(2020, 8, 5), 34389)
+[2023-07-31 05:57:27,944] {logging_mixin.py:115} INFO - (21, '32', 10, datetime.date(2020, 8, 6), 24081)
+[2023-07-31 05:57:27,944] {logging_mixin.py:115} INFO - (32, '32', 10, datetime.date(2020, 8, 7), 27)
+[2023-07-31 05:57:27,944] {logging_mixin.py:115} INFO - (43, '32', 10, datetime.date(2020, 8, 8), 69)
+[2023-07-31 05:57:27,944] {logging_mixin.py:115} INFO - (54, '32', 10, datetime.date(2020, 8, 9), 3815)
+[2023-07-31 05:57:27,944] {logging_mixin.py:115} INFO - (65, '32', 10, datetime.date(2020, 8, 10), 76)
+[2023-07-31 05:57:27,944] {logging_mixin.py:115} INFO - (11, '32', 11, datetime.date(2020, 8, 5), 0)
+[2023-07-31 05:57:27,944] {logging_mixin.py:115} INFO - (22, '32', 11, datetime.date(2020, 8, 6), 2039)
+[2023-07-31 05:57:27,944] {logging_mixin.py:115} INFO - (33, '32', 11, datetime.date(2020, 8, 7), 4)
+[2023-07-31 05:57:27,944] {logging_mixin.py:115} INFO - (44, '32', 11, datetime.date(2020, 8, 8), 4)
+[2023-07-31 05:57:27,944] {logging_mixin.py:115} INFO - (55, '32', 11, datetime.date(2020, 8, 9), 0)
+[2023-07-31 05:57:27,944] {logging_mixin.py:115} INFO - (66, '32', 11, datetime.date(2020, 8, 10), 8)
+[2023-07-31 05:57:27,945] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-31 05:57:27,959] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=show_table_data, task_id=show_table_data, execution_date=20230731T055727, start_date=20230731T055727, end_date=20230731T055727
+[2023-07-31 05:57:28,006] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-31 05:57:28,039] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

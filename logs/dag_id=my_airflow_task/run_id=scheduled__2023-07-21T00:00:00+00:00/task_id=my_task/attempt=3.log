@@ -1,0 +1,22 @@
+[2023-07-26 15:48:20,801] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: my_airflow_task.my_task scheduled__2023-07-21T00:00:00+00:00 [queued]>
+[2023-07-26 15:48:20,827] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: my_airflow_task.my_task scheduled__2023-07-21T00:00:00+00:00 [queued]>
+[2023-07-26 15:48:20,827] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-26 15:48:20,827] {taskinstance.py:1357} INFO - Starting attempt 3 of 1
+[2023-07-26 15:48:20,827] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-26 15:48:20,906] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): my_task> on 2023-07-21 00:00:00+00:00
+[2023-07-26 15:48:20,914] {standard_task_runner.py:52} INFO - Started process 236 to run task
+[2023-07-26 15:48:20,925] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'my_***_task', 'my_task', 'scheduled__2023-07-21T00:00:00+00:00', '--job-id', '255', '--raw', '--subdir', 'DAGS_FOLDER/read_csv.py', '--cfg-path', '/tmp/tmpu7nq1rj0', '--error-file', '/tmp/tmpsjnyje0n']
+[2023-07-26 15:48:20,926] {standard_task_runner.py:80} INFO - Job 255: Subtask my_task
+[2023-07-26 15:48:21,101] {task_command.py:369} INFO - Running <TaskInstance: my_airflow_task.my_task scheduled__2023-07-21T00:00:00+00:00 [running]> on host c99e0793ee8d
+[2023-07-26 15:48:21,389] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=my_***_task
+AIRFLOW_CTX_TASK_ID=my_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-21T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-07-21T00:00:00+00:00
+[2023-07-26 15:48:48,327] {local_task_job.py:84} ERROR - Received SIGTERM. Terminating subprocesses
+[2023-07-26 15:48:48,348] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 236. PIDs of all processes in the group: [236]
+[2023-07-26 15:48:48,348] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 236
