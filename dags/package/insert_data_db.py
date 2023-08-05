@@ -87,6 +87,8 @@ def create_fact_table_province_daily():
     data.columns = column_end
     data['id'] = np.arange(1, data.shape[0]+1)
     df_dim_case = df_dim_case.rename({'id':'case_id'}, axis=1)
+    data['date'] = pd.to_datetime(data['date'])
+    data['date'] = data['date'].dt.date
 
     data = pd.merge(data, df_dim_case, how='inner', on='status')
     data = data[['id', 'province_id', 'case_id', 'date', 'total']] 
@@ -111,6 +113,8 @@ def create_fact_table_district_daily():
     data.columns = column_end
     data['id'] = np.arange(1, data.shape[0]+1)
     df_dim_case = df_dim_case.rename({'id':'case_id'}, axis=1)
+    data['date'] = pd.to_datetime(data['date'])
+    data['date'] = data['date'].dt.date
 
     data = pd.merge(data, df_dim_case, how='inner', on='status')
     data = data[['id', 'district_id', 'case_id', 'date', 'total']] 
